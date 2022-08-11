@@ -4,23 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="lib/styles/main.css">
+    <script src="https://kit.fontawesome.com/9a696d46c5.js" crossorigin="anonymous"></script>
     <title>Learning JavaScript with Abiel</title>
 </head>
 <body>
+<!-- loading screen -->
+    <div class="loading__screen">
+        <div class="loading__icons-container">
+            <i class="loading__icons fa-brands fa-square-js loading-js"></i>
+            <i class="loading__icons fa-solid fa-code"></i>
+            <i class="loading__icons fa-solid fa-laptop-code"></i>
+            <i class="loading__icons fa-solid fa-tablet-screen-button"></i>
+            <i class="loading__icons fa-solid fa-laptop"></i>
+            <i class="loading__icons fa-solid fa-keyboard"></i>
+        </div>
+    </div> 
 
+<!-- Heading section of the webiste -->
     <header class="header">
-        <section class="header-left left animation-js">
-            <h1>JS</h1>
+        <!-- Left side of heading with context on the build of this website. -->
+        <section class="header__left">
+            <div class="header__left-container">
+                <p>Learning...</p>
+                <h1>JavaScript</h1>
+                <p>
+                    Here you will have the chance to learn about the most popular programming language on the web, <span class="highlight">JavaScript!</span> 
+                    On this website I share my journey in learning <span class="highlight">JavaScript</span> which to me, as of <span class="highlight">August 2022</span>, is an exciting must very difficult programming language to learn. 
+                    I hope this resource can make it that much more easier on you who is on this journey as well.
+                </p>
+                <div class="techTools__socialMedia">
+                    <div class="techTools">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="socialMedia">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <a href="#main" class="getStarted__btn">Click To Start</a>
+            </div>
         </section>
-        <section class="header-right right">
-            <h1>Learning JavaScript</h1>
-            <h2>with Abiel Ortega</h2>
-            <button class="btn getStarted"></button>
+        <!-- Right Side of the header with nav and cool background. -->
+        <section class="header__right">
+            <div class="header__right-container">
+                <div class="nav toggle">
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#topics">Topics</a></li>
+                            <li><a href="#contact-me">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                    <div class="toggle" id="toggle__container">
+                        <div class="toggle" id="toggle__switch"></div>
+                    </div>
+                </div>
+                <div class="js-spinIcons">
+                    <i class="spin-icons fa-solid fa-keyboard"></i>
+                    <i class="spin-icons fa-solid fa-tablet-screen-button"></i>
+                    <i class="spin-icons fa-solid fa-laptop-code"></i>
+                    <h1 class="JS-Logo">JS</h1>
+                    <i class="spin-icons fa-solid fa-code"></i>
+                    <i class="spin-icons fa-solid fa-laptop"></i>
+                    <i class="spin-icons fa-brands fa-square-js"></i>
+                </div> 
+            </div>
         </section>
     </header>
 
-    <main class="main">
+    <main id="main" class="main">
 
     </main>
 </body>

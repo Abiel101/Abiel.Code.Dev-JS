@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url("loading.css");
+@import url("header.css");
+@import url("variables.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-black);
+    font-family: "Roboto Mono";
+    font-weight: 300;
+}
+li{
+    list-style: none;
+}
+a{
+    color: var(--text-black);
+    text-decoration: none;
+}
+i{ 
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.highlight{
+    font-weight: 400;
+    color: var(--main-js-color);
+}
+
+/* Font size for the card might be different */

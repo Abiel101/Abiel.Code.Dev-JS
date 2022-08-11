@@ -1,0 +1,85 @@
+@import url("variables.css");
+@import url("keyframes.css");
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Left side of the header section. */
+.header__left{
+    width: 65%;
+    height: 100%;
+    background-color: var(--background-black);
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+}
+.header__left-container{
+    width: 70%;
+    margin: auto;
+}
+.header__left-container p, .header__left-container h1{
+    margin-bottom: 30px;
+}
+.header__left-container h1{
+    font-size: 80px;
+    color: var(--main-js-color);
+}
+.techTools__socialMedia{
+    cursor: default;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.divider{
+    background-color: var(--main-js-color);
+    width: 1px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.techTools i, .socialMedia a{
+    margin-right: 10px;
+    color: var(--main-js-color);
+}
+
+.fa-brands{
+    transition: 0.2s;
+}
+.fa-instagram:hover{
+    color: #fd9999;
+}
+.fa-twitter:hover{
+    color: #99ddfd;
+}
+.fa-github:hover{
+    color: #be99fd;
+}
+.fa-linkedin-in:hover{
+    color: #99a3fd;
+}
+
+.getStarted__btn{
+    color: var(--main-js-color);
+    border: 2px solid var(--main-js-color);
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+.getStarted__btn:hover{
+    background-color: var(--main-js-color);
+    color: var(--text-black);
+}
+
+
+/* Right side of the header section. */
+.header__right{
+    width: 35%;
+    height: 100%;
+    background-color: var(--main-js-color);
+}
